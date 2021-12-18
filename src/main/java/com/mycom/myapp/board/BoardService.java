@@ -1,0 +1,12 @@
+package com.mycom.myapp.board;
+
+import java.util.List;
+
+public interface BoardService {
+	public int insertBoard(BoardVO vo);
+	public int deleteBoard(int id);
+	public int updateBoard(BoardVO vo);
+	public BoardVO getBoard(int seq);
+	public List<BoardVO> getMBoard(String mbti);
+	public List<BoardVO> getBoardList();
+}
